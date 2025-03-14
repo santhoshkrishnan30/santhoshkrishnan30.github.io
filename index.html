@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Santhosh portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <!-- Custom CSS to display image fully -->
+  <style>
+    .hero {
+      height: 100vh; /* Adjust height as needed */
+    }
+
+    .hero img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Santhosh Krishnan </h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://x.com/Santhos83686951" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://www.facebook.com/sk30603/" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/_santhosh_krishnan_sk/" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/santhoshkrish03" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://topmate.io/santhoshkrishnan30/" class="topmate">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M21.87 14.67L17.5 10.3l-2.12 2.12 4.37 4.37H12v3h7.75l-4.37 4.37 2.12 2.12 7.5-7.5c.58-.58.58-1.53 0-2.12zM2.13 9.33L6.5 13.7l2.12-2.12-4.37-4.37H12v-3H4.25l4.37-4.37-2.12-2.12-7.5 7.5c-.58.58-.58 1.53 0 2.12z"/>
+        </svg>
+      </a>
+    </div>
+    
+    <style>
+    .social-links a {
+      font-size: 18px;
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      line-height: 1;
+      padding: 8px 0;
+      margin-right: 4px;
+      border-radius: 50%;
+      text-align: center;
+      width: 36px;
+      height: 36px;
+      transition: 0.3s;
+    }
+    
+    .social-links .topmate svg {
+      margin-top: 2px;
+    }
+    
+    .social-links a:hover {
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      text-decoration: none;
+    }
+    </style>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#skills"><i class="bi bi-graph-up navicon"></i> Skills</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Projects</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Santhosh Krishnan R</h2>
+        <p>I'm <span class="typed" data-typed-items="Data Engineer., Data Scientist., Data Analyst., ML/DL Enthusiast., Cloud Enthusiast.,Big Data Analyst.">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Passionate about leveraging data for meaningful insights and innovation, I specialize in Data - engineering, analysis, science, and machine learning. Skilled in optimizing pipelines, uncovering trends, and building predictive models, I thrive in dynamic, collaborative environments. Let's connect to explore how I can drive innovation through data-driven solutions.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-pic.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Data Scientist &amp; Data Engineer.</h2>
+            <p class="fw-normal py-3">
+              A dedicated individual, passionate about leveraging the power of data to drive meaningful insights and innovation. I specialize in data engineering, analysis, science, and machine learning, possessing a versatile skill set. Skilled in optimizing pipelines, uncovering trends, and building predictive models. I excel in dynamic, collaborative environments.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 90474 76607</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Coimbatore, Tamil Nadu, India.</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>M.Sc in Data Science (Integrated)</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>santhoshkrishnan3006@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              Let's connect to explore how my passion for data-driven solutions can contribute to driving innovation together.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <!-- /Stats Section -->
+
+   
+    <!-- Skills Section -->
+<!-- Skills Section -->
+<!-- Skills Section -->
+<section id="skills" class="skills section light-background">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Skills</h2>
+    
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row skills-content skills-animation">
+      <div class="col-lg-12">
+        <div class="skills-grid">
+          <div class="skill-item"><i class="fab fa-python"></i>&nbsp;Python</div>
+          <div class="skill-item"><i class="fas fa-database"></i>&nbsp;SQL</div>
+          <div class="skill-item"><i class="fas fa-database"></i>&nbsp;MongoDB</div>
+          <div class="skill-item"><i class="fas fa-database"></i>&nbsp;Cassandra</div>
+          <div class="skill-item"><i class="fas fa-snowflake"></i>&nbsp;Snowflake</div>
+          <div class="skill-item"><i class="fas fa-cloud"></i>&nbsp;IICS</div>
+          <div class="skill-item"><i class="fas fa-brain"></i>&nbsp;Scikit-Learn</div>
+          <div class="skill-item"><i class="fas fa-brain"></i>&nbsp;PyTorch</div>
+          <div class="skill-item"><i class="fas fa-chart-line"></i>&nbsp;Matplotlib</div>
+          <div class="skill-item"><i class="fas fa-chart-bar"></i>&nbsp;Seaborn</div>
+          <div class="skill-item"><i class="fas fa-chart-bar"></i>&nbsp;Plotly</div>
+          <div class="skill-item"><i class="fab fa-git"></i>&nbsp;Git</div>
+          <div class="skill-item"><i class="fab fa-linux"></i>&nbsp;Linux</div>
+          <div class="skill-item"><i class="fas fa-stream"></i>&nbsp;Kafka</div>
+          <div class="skill-item"><i class="fab fa-docker"></i>&nbsp;Docker</div>
+          <div class="skill-item"><i class="fas fa-network-wired"></i>&nbsp;Kubernetes</div>
+          <div class="skill-item"><i class="fas fa-calculator"></i>&nbsp;NumPy</div>
+          <div class="skill-item"><i class="fas fa-table"></i>&nbsp;Pandas</div>
+          <div class="skill-item"><i class="fas fa-brain"></i>&nbsp;TensorFlow</div>
+          <div class="skill-item"><i class="fab fa-python"></i>&nbsp;Keras</div>
+          <div class="skill-item"><i class="fas fa-camera"></i>&nbsp;OpenCV</div>
+          <div class="skill-item"><i class="fas fa-palette"></i>&nbsp;Canva</div>
+          <div class="skill-item"><i class="fab fa-hubspot"></i>&nbsp;Hadoop</div>
+          <div class="skill-item"><i class="fas fa-fire"></i>&nbsp;Spark</div>
+          <div class="skill-item"><i class="fab fa-aws"></i>&nbsp;AWS</div>
+          <div class="skill-item"><i class="fab fa-microsoft"></i>&nbsp;Azure</div>
+          <div class="skill-item"><i class="fas fa-flask"></i>&nbsp;Flask</div>
+          <div class="skill-item"><i class="fab fa-python"></i>&nbsp;Django</div>
+          <div class="skill-item"><i class="fas fa-bolt"></i>&nbsp;FastAPI</div>
+          <div class="skill-item"><i class="fas fa-wind"></i>&nbsp;Airflow</div>
+          <div class="skill-item"><i class="fab fa-microsoft"></i>&nbsp;Microsoft 365</div>
+          <div class="skill-item"><i class="fas fa-box"></i>&nbsp;Anaconda</div>
+          <div class="skill-item"><i class="fas fa-book"></i>&nbsp;Jupyter</div>
+          <div class="skill-item"><i class="fas fa-chart-pie"></i>&nbsp;Power BI</div>
+          <div class="skill-item"><i class="fas fa-chart-pie"></i>&nbsp;Tableau</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  .skill-item i {
+    margin-right: 5px;
+  }
+  .skill-item:hover {
+    background-color: #555;
+  }
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+
+
+
+
+<!-- /Skills Section -->
+
+    
+<!-- Resume Section -->
+<section id="resume" class="resume section">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Resume</h2>
+  </div>
+
+  <div class="container">
+    <!-- Resume filter tabs -->
+    <ul class="resume-filters" data-aos="fade-up" data-aos-delay="100">
+      <li onclick="filterResume('data-science')">DATA SCIENCE RESUME</li>
+      <li onclick="filterResume('data-engineering')">DATA ENGINEER RESUME</li>
+    </ul>
+
+    <div data-aos="fade-up" data-aos-delay="200">
+      <!-- Data Science Resume Section -->
+      <div id="data-science-resume" class="resume-section" style="display: none;">
+        <div class="resume-item pb-0">
+          <h4>Data Science Resume</h4>
+          <p><em>View or download my Data Science resume to learn about my experience and skills in the field.</em></p>
+          <div class="resume-preview">
+            <iframe src="https://drive.google.com/file/d/1-MnfHp2o3YShCqmO1f-DOr5VpBJ32WyE/preview" width="100%" height="600" allow="autoplay"></iframe>
+          </div>
+          <div class="resume-download mt-4">
+            <a href="https://drive.google.com/file/d/1-MnfHp2o3YShCqmO1f-DOr5VpBJ32WyE/view" class="btn btn-primary" target="_blank">
+              <i class="bi bi-download"></i> Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Engineering Resume Section -->
+      <div id="data-engineering-resume" class="resume-section" style="display: none;">
+        <div class="resume-item pb-0">
+          <h4>Data Engineering Resume</h4>
+          <p><em>View or download my Data Engineer resume to learn about my experience and skills in the field.</em></p>
+          <div class="resume-preview">
+            <iframe src="https://drive.google.com/file/d/14fTOeVP-Nsbt9TXVWVV4k56R5m2PzOsP/preview" width="100%" height="600" allow="autoplay"></iframe>
+          </div>
+          <div class="resume-download mt-4">
+            <a href="https://drive.google.com/file/d/14fTOeVP-Nsbt9TXVWVV4k56R5m2PzOsP/view" class="btn btn-primary" target="_blank">
+              <i class="bi bi-download"></i> Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Add the JavaScript function for filtering resumes -->
+<script>
+function filterResume(category) {
+  document.getElementById('data-science-resume').style.display = 'none';
+  document.getElementById('data-engineering-resume').style.display = 'none';
+  document.getElementById(category + '-resume').style.display = 'block';
+}
+</script>
+
+<!-- Add CSS for resume filters and display -->
+<style>
+  .resume-filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  
+  .resume-filters li {
+    list-style: none;
+    padding: 20px 40px;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 50px;
+    background: #f7f7f7;
+    color: black;
+    transition: background 0.3s, color 0.3s, padding 0.3s;
+  }
+  
+  .resume-filters li:hover {
+    background: #333;
+    color: #fff !important;
+    padding: 25px 45px;
+  }
+  
+  .resume-preview {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .resume-download {
+    text-align: center;
+  }
+  
+  .resume-download .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .resume-download .btn:hover {
+    background-color: #555;
+  }
+</style>
+    <!-- /Resume Section -->
+
+
+
+<!-- Projects Section -->
+<section id="portfolio" class="portfolio section light-background">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Projects</h2>
+  </div>
+
+  <div class="container">
+    <ul class="portfolio-filters" data-aos="fade-up" data-aos-delay="100">
+      <li onclick="filterProjects('data-science')">DATA SCIENCE PROJECTS</li>
+      <li onclick="filterProjects('data-engineering')">DATA ENGINEERING PROJECTS</li>
+    </ul>
+
+    <div data-aos="fade-up" data-aos-delay="200">
+      <!-- Data Science Projects Section -->
+      <div id="data-science-projects" class="project-section" style="display: none;">
+        <div class="row">
+          <!-- Spotify Music Recommendation System -->
+          <div class="portfolio-item">
+            <div class="portfolio-content">
+              <div class="portfolio-header">
+                <h4>Spotify Music Recommendation System</h4>
+                <a href="https://github.com/santhoshkrishnan30/Spotify-Music-Recommendation-System" title="More Details" class="details-link" target="_blank">
+                  <i class="external-link-icon"></i>
+                </a>
+              </div>
+              <p>Music Recommendation Systems operate through intricate algorithms that analyze vast amounts of data about users' musical interactions, such as their listening history, liked tracks, skipped songs, and even explicit user preferences conveyed through ratings or feedback. These data points are instrumental in constructing comprehensive user profiles, delineating individual tastes and preferences.</p>
+              <div class="tech-stack mt-auto">
+                <span class="badge">Spotify-Key</span>
+                <span class="badge">Python</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- End-to-End Chatbot using Python -->
+          <div class="portfolio-item">
+            <div class="portfolio-content">
+              <div class="portfolio-header">
+                <h4>End-to-End Chatbot using Python</h4>
+                <a href="https://github.com/santhoshkrishnan30/End-to-End-Chatbot" title="More Details" class="details-link" target="_blank">
+                  <i class="external-link-icon"></i>
+                </a>
+              </div>
+              <p>An end-to-end chatbot refers to a chatbot that can handle a complete conversation from start to finish without requiring human assistance. To create an end-to-end chatbot, you need to write a computer program that can understand user requests, generate appropriate responses, and take action when necessary. This involves collecting data, choosing a programming language and NLP tools, training the chatbot, and testing and refining it before making it available to users.</p>
+              <div class="tech-stack mt-auto">
+                <span class="badge">Nltk</span>
+                <span class="badge">Streamlit</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Instagram Reach Forecasting -->
+          <div class="portfolio-item">
+            <div class="portfolio-content">
+              <div class="portfolio-header">
+                <h4>Instagram Reach Forecasting</h4>
+                <a href="https://github.com/santhoshkrishnan30/Instagram-Reach-Forecasting" title="More Details" class="details-link" target="_blank">
+                  <i class="external-link-icon"></i>
+                </a>
+              </div>
+              <p>Instagram reach forecasting is the processing of predicting the number of people that an Instagram post, story, or other content will be reached, based on historical data and various other factors. For content creators and anyone using Instagram professionally, predicting the reach can be valuable for planning and optimizing their social media strategy. By understanding how their content is performing, creators can make informed decisions about when to publish, what types of content to create, and how to engage their audience.</p>
+              <div class="tech-stack mt-auto">
+                <span class="badge">plotly</span>
+                <span class="badge">statsmodels</span>
+                <span class="badge">pandas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- FoodChatbot using google DialogFlow-->
+          <div class="portfolio-item">
+            <div class="portfolio-content">
+              <div class="portfolio-header">
+                <h4>Tiffintalk-Bot</h4>
+                <a href="https://github.com/santhoshkrishnan30/Tiffintalk-Bot-FastAPI" title="More Details" class="details-link" target="_blank">
+                  <i class="external-link-icon"></i>
+                </a>
+              </div>
+              <p>The food chatbot project integrates Dialogflow for natural language understanding and FastAPI for backend services, enabling users to place and track orders through a website. It involves setting up intent recognition with Dialogflow, using MySQL for order management, and ensuring a smooth user experience from order entry to tracking.</p>
+              <div class="tech-stack mt-auto">
+                <span class="badge">Dialogflow</span>
+                <span class="badge">MySQL</span>
+                <span class="badge">Ngrok</span>
+              </div>
+            </div>
+          </div>
+
+          <!--Fashion-Recommendation-System-->
+          <div class="portfolio-item">
+            <div class="portfolio-content">
+              <div class="portfolio-header">
+                <h4>Fashion-Recommendation-System</h4>
+                <a href="https://github.com/santhoshkrishnan30/Fashion-Recommendation-System-using-Image-Features" title="More Details" class="details-link" target="_blank">
+                  <i class="external-link-icon"></i>
+                </a>
+              </div>
+              <p>This Projects contains code to build a Fashion Recommendation System utilizing image features. The system leverages computer vision and machine learning techniques to analyze fashion items' visual aspects like color, texture, and style and recommend similar or complementary products to users.</p>
+              <div class="tech-stack mt-auto">
+                <span class="badge">TensorFlow</span>
+                <span class="badge">Keras</span>
+                <span class="badge">PIL</span>
+              </div>
+            </div>
+          </div>
+
+          <!--Plant Disease Classifier-->
+          <div class="portfolio-item">
+            <div class="portfolio-content">
+              <div class="portfolio-header">
+                <h4>Plant Disease Classifier</h4>
+                <a href="https://github.com/santhoshkrishnan30/CNN-plant-disease-prediction" title="More Details" class="details-link" target="_blank">
+                  <i class="external-link-icon"></i>
+                </a>
+              </div>
+              <p>This Projects contains a Convolutional Neural Network (CNN) based plant disease classifier implemented using TensorFlow. The model is trained to classify plant images into three categories: "Healthy", "Powdery", and "Rust". The dataset consists of 1530 images divided into training, testing, and validation sets.</p>
+              <div class="tech-stack mt-auto">
+                <span class="badge">TensorFlow</span>
+                <span class="badge">Keras</span>
+                <span class="badge">PIL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Engineering Projects Section -->
+      <div id="data-engineering-projects" class="project-section" style="display: none;">
+        <div class="row">
+          <!-- Realtime Socket Streaming with Apache Spark -->
+          <div class="portfolio-item">
+            <div class="portfolio-content">
+              <div class="portfolio-header">
+                <h4>Realtime Socket Streaming with Apache Spark</h4>
+                <a href="https://github.com/santhoshkrishnan30/Realtime-Socket-Streaming-with-Apache-Spark" title="More Details" class="details-link" target="_blank">
+                  <i class="external-link-icon"></i>
+                </a>
+              </div>
+              <p>This project serves as a comprehensive guide to building an end-to-end data engineering pipeline using TCP/IP Socket, Apache Spark, OpenAI LLM, Kafka and Elasticsearch.</p>
+              <div class="tech-stack mt-auto">
+                <span class="badge">Kafka</span>
+                <span class="badge">Spark</span>
+                <span class="badge">Docker</span>
+                <span class="badge">TCP/IP</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Real-Time YouTube Analytics Streamed to Telegram -->
+          <div class="portfolio-item">
+            <div class="portfolio-content">
+              <div class="portfolio-header">
+                <h4>Real-Time YouTube Analytics Streamed to Telegram</h4>
+                <a href="https://github.com/santhoshkrishnan30/Google-Cloud-Realtime-Streaming-End-to-End-Data-Engineering-Project-YouTube-API" title="More Details" class="details-link" target="_blank">
+                  <i class="external-link-icon"></i>
+                </a>
+              </div>
+              <p>This Python-based project aims to fetch real-time YouTube metrics like likes, views, comments, and favorites, and then streams this data via Kafka. Also, KSqlDB was used for stream processing and the processed data is then sent to a Telegram bot for real-time notifications.</p>
+              <div class="tech-stack mt-auto">
+                <span class="badge">Kafka</span>
+                <span class="badge">Docker</span>
+                <span class="badge">telegramAPI</span>
+                <span class="badge">confluent</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Big Data Analytics with LLM -->
+          <div class="portfolio-item">
+            <div class="portfolio-content">
+              <div class="portfolio-header">
+                <h4>Big Data Analytics with LLM (GPT-4, GPT-3.5turbo, GPT3.5) - OpenAI ChatGPT</h4>
+                <a href="https://github.com/santhoshkrishnan30/Big-Data-Analytics-with-LLM-GPT4-GPT3.5turbo-GPT3.5---OpenAI-ChatGPT" title="More Details" class="details-link" target="_blank">
+                  <i class="external-link-icon"></i>
+                </a>
+              </div>
+              <p>This Python project demonstrates how to enhance data manipulation and analysis using artificial intelligence with the pandas library. By integrating AI capabilities, you can supercharge your data tasks and gain deeper insights.</p>
+              <div class="tech-stack mt-auto">
+                <span class="badge">pandas-ai (OpenAI GPT-based library)</span>
+                <span class="badge">pandas</span>
+                <span class="badge">python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+function filterProjects(category) {
+  document.getElementById('data-science-projects').style.display = 'none';
+  document.getElementById('data-engineering-projects').style.display = 'none';
+  document.getElementById(category + '-projects').style.display = 'block';
+}
+</script>
+
+<style>
+  .portfolio-filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  
+  .portfolio-filters li {
+  list-style: none;
+  padding: 20px 40px; /* Increased horizontal padding */
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 50px;
+  background: #f7f7f7;
+  color: black;
+  transition: background 0.3s, color 0.3s, padding 0.3s;
+  
+}
+
+.portfolio-filters li:hover {
+  background: #333;
+  color: #fff !important; 
+  padding: 25px 65px; /* Increased hover padding */
+}
+  .portfolio-content {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding-right: 30px;
+    color: #ffffff;
+  }
+  
+  .portfolio-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+  }
+  
+  .tech-stack {
+    margin-top: auto;
+  }
+  
+  .tech-stack .badge {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+  
+  .details-link {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+    flex-shrink: 0;
+  }
+  
+  .details-link:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .external-link-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+
+  .portfolio-item {
+    flex: 0 0 calc(33.333% - 30px);
+    max-width: calc(33.333% - 30px);
+    margin: 15px;
+  }
+
+  @media (max-width: 992px) {
+    .portfolio-item {
+      flex: 0 0 calc(50% - 30px);
+      max-width: calc(50% - 30px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .portfolio-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+</style>
+
+  
+<!--projects Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-gear"></i></div>
+            <div>
+              <h4 class="title"><a href="dataengineering-service.html" class="stretched-link">Data Engineering</a></h4>
+              <p class="description">Data engineering involves creating systems to enable data collection and utilization, providing analysts, data scientists, and executives with reliable, swift, and secure access to data.</p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart-line"></i></div>
+            <div>
+              <h4 class="title"><a href="datascience-service.html" class="stretched-link">Data Science</a></h4>
+              <p class="description">Data science involves extracting insights and knowledge from data through statistical analysis, machine learning, and advanced algorithms, enabling informed decision-making and predictive analytics for organizations.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-lightbulb"></i></div>
+            <div>
+              <h4 class="title"><a href="ML-DL.html" class="stretched-link">Machine Learning & Deep Learning</a></h4>
+              <p class="description">Machine learning (ML) and deep learning (DL) create algorithms that enable computers to learn from data and make predictions. These technologies drive automation, pattern recognition, and AI, solving complex problems across various industries.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-cloud"></i></div>
+            <div>
+              <h4 class="title"><a href="cloud-service.html" class="stretched-link">Cloud Computing</a></h4>
+              <p class="description">Cloud computing involves delivering computing services, such as storage, processing, and software, over the internet. This technology provides scalable resources, cost efficiency, and flexibility, enabling businesses to innovate and operate more effectively.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-database"></i></div>
+            <div>
+              <h4 class="title"><a href="DM-DQ-service.html" class="stretched-link">Data Management & Quality</a></h4>
+              <p class="description">Data management and quality involve organizing, storing, and maintaining data to ensure accuracy, consistency, and reliability. This process is essential for making informed decisions, improving operational efficiency, and ensuring regulatory compliance.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-graph-up"></i></div>
+            <div>
+              <h4 class="title"><a href="dataanalysis-service.html" class="stretched-link">Data Analysis</a></h4>
+              <p class="description">Data analysis involves examining, cleaning, and modeling data to discover useful information, draw conclusions, and support decision-making. This process enables organizations to gain insights, identify trends, and make data-driven decisions.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Have a question or want to work together? Fill out the form below and I'll get back to you as soon as possible.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>31/A , Savithiri Nagar, 2nd Street, Chetty Street, Coimbatore - 641001, Tamil Nadu, India.</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Dial Me</h3>
+                  <p>+91 90474 76607</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>santhoshkrishnan3006@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d359.27620873385496!2d76.94827427484358!3d10.988261480114485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8596c61eeb98b%3A0xb0be0515fde494a1!2s15%2C%20Savithrinagar%2C%20Ashoknagar%2C%20Balaji%20Avenue%2C%20Selvapuram%20South%2C%20Coimbatore%2C%20Tamil%20Nadu%20641001!5e0!3m2!1sen!2sin!4v1720725578863!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="https://formspree.io/f/xjkbkwln" method="POST">
+                <label>
+                    Your Name:
+                    <input type="text" name="name" required>
+                </label>
+                <label>
+                    Your Email:
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Subject:
+                    <input type="text" name="subject" required>
+                </label>
+                <label>
+                    Your Message:
+                    <textarea name="message" required></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f8f9fa;
+                color: #333;
+            }
+        
+            .col-lg-7 {
+                max-width: 600px;
+                margin: 50px auto;
+                padding: 20px;
+                background-color: #ffffff;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+        
+            form {
+                display: flex;
+                flex-direction: column;
+            }
+        
+            label {
+                margin-bottom: 10px;
+                font-weight: bold;
+                display: flex;
+                flex-direction: column;
+            }
+        
+            input[type="text"],
+            input[type="email"],
+            textarea {
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 16px;
+                margin-bottom: 15px; /* Spacing between fields */
+            }
+        
+            textarea {
+                resize: vertical;
+                height: 100px;
+            }
+        
+            button {
+                padding: 10px;
+                background-color: #5fa8f7;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 16px;
+                transition: background-color 0.3s;
+            }
+        
+            button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+        
+        
+            
+        <!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+    
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">2024 </strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a>   Santhosh Krishnan </a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
