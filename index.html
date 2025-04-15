@@ -72,6 +72,7 @@
     </a>
 
     <div class="social-links text-center">
+      <a href="https://github.com/santhoshkrishnan30" class="github"><i class="bi bi-github"></i></a>
       <a href="https://x.com/Santhos83686951" class="twitter"><i class="bi bi-twitter-x"></i></a>
       <a href="https://www.facebook.com/sk30603/" class="facebook"><i class="bi bi-facebook"></i></a>
       <a href="https://www.instagram.com/_santhosh_krishnan_sk/" class="instagram"><i class="bi bi-instagram"></i></a>
@@ -84,23 +85,31 @@
     </div>
     
     <style>
+    .social-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      gap: 8px;
+    }
+    
     .social-links a {
-      font-size: 18px;
-      display: inline-block;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       background: rgba(255, 255, 255, 0.1);
       color: #fff;
       line-height: 1;
-      padding: 8px 0;
-      margin-right: 4px;
+      padding: 6px 0;
       border-radius: 50%;
       text-align: center;
-      width: 36px;
-      height: 36px;
+      width: 32px;
+      height: 32px;
       transition: 0.3s;
     }
     
     .social-links .topmate svg {
-      margin-top: 2px;
+      margin-top: 0;
     }
     
     .social-links a:hover {
