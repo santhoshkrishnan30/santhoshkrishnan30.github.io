@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <head>
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -54,7 +55,7 @@
       object-fit: cover;
     }
   </style>
-  
+</head>
 
 <body class="index-page">
 
@@ -72,7 +73,6 @@
     </a>
 
     <div class="social-links text-center">
-      <a href="https://github.com/santhoshkrishnan30" class="github"><i class="bi bi-github"></i></a>
       <a href="https://x.com/Santhos83686951" class="twitter"><i class="bi bi-twitter-x"></i></a>
       <a href="https://www.facebook.com/sk30603/" class="facebook"><i class="bi bi-facebook"></i></a>
       <a href="https://www.instagram.com/_santhosh_krishnan_sk/" class="instagram"><i class="bi bi-instagram"></i></a>
@@ -85,31 +85,23 @@
     </div>
     
     <style>
-    .social-links {
-      display: flex;
-      justify-content: center;
-      flex-wrap: nowrap;
-      gap: 8px;
-    }
-    
     .social-links a {
-      font-size: 16px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      font-size: 18px;
+      display: inline-block;
       background: rgba(255, 255, 255, 0.1);
       color: #fff;
       line-height: 1;
-      padding: 6px 0;
+      padding: 8px 0;
+      margin-right: 4px;
       border-radius: 50%;
       text-align: center;
-      width: 32px;
-      height: 32px;
+      width: 36px;
+      height: 36px;
       transition: 0.3s;
     }
     
     .social-links .topmate svg {
-      margin-top: 0;
+      margin-top: 2px;
     }
     
     .social-links a:hover {
@@ -123,10 +115,12 @@
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#skills"><i class="bi bi-graph-up navicon"></i> Skills</a></li>
+        <li><a href="#skills"><i class="bi bi-graph-up navicon"></i> Skills </a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Projects</a></li>
         <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="#certifications"><i class="bi bi-patch-check navicon"></i> Certifications</a></li>
+
         
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
@@ -202,78 +196,150 @@
 <section id="skills" class="skills section light-background">
   <div class="container section-title" data-aos="fade-up">
     <h2>Skills</h2>
-    
   </div>
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row skills-content skills-animation">
-      <div class="col-lg-12">
-        <div class="skills-grid">
-          <div class="skill-item"><i class="fab fa-python"></i>&nbsp;Python</div>
-          <div class="skill-item"><i class="fas fa-database"></i>&nbsp;SQL</div>
-          <div class="skill-item"><i class="fas fa-database"></i>&nbsp;MongoDB</div>
-          <div class="skill-item"><i class="fas fa-database"></i>&nbsp;Cassandra</div>
-          <div class="skill-item"><i class="fas fa-snowflake"></i>&nbsp;Snowflake</div>
-          <div class="skill-item"><i class="fas fa-cloud"></i>&nbsp;IICS</div>
-          <div class="skill-item"><i class="fas fa-brain"></i>&nbsp;Scikit-Learn</div>
-          <div class="skill-item"><i class="fas fa-brain"></i>&nbsp;PyTorch</div>
-          <div class="skill-item"><i class="fas fa-chart-line"></i>&nbsp;Matplotlib</div>
-          <div class="skill-item"><i class="fas fa-chart-bar"></i>&nbsp;Seaborn</div>
-          <div class="skill-item"><i class="fas fa-chart-bar"></i>&nbsp;Plotly</div>
-          <div class="skill-item"><i class="fab fa-git"></i>&nbsp;Git</div>
-          <div class="skill-item"><i class="fab fa-linux"></i>&nbsp;Linux</div>
-          <div class="skill-item"><i class="fas fa-stream"></i>&nbsp;Kafka</div>
-          <div class="skill-item"><i class="fab fa-docker"></i>&nbsp;Docker</div>
-          <div class="skill-item"><i class="fas fa-network-wired"></i>&nbsp;Kubernetes</div>
-          <div class="skill-item"><i class="fas fa-calculator"></i>&nbsp;NumPy</div>
-          <div class="skill-item"><i class="fas fa-table"></i>&nbsp;Pandas</div>
-          <div class="skill-item"><i class="fas fa-brain"></i>&nbsp;TensorFlow</div>
-          <div class="skill-item"><i class="fab fa-python"></i>&nbsp;Keras</div>
-          <div class="skill-item"><i class="fas fa-camera"></i>&nbsp;OpenCV</div>
-          <div class="skill-item"><i class="fas fa-palette"></i>&nbsp;Canva</div>
-          <div class="skill-item"><i class="fab fa-hubspot"></i>&nbsp;Hadoop</div>
-          <div class="skill-item"><i class="fas fa-fire"></i>&nbsp;Spark</div>
-          <div class="skill-item"><i class="fab fa-aws"></i>&nbsp;AWS</div>
-          <div class="skill-item"><i class="fab fa-microsoft"></i>&nbsp;Azure</div>
-          <div class="skill-item"><i class="fas fa-flask"></i>&nbsp;Flask</div>
-          <div class="skill-item"><i class="fab fa-python"></i>&nbsp;Django</div>
-          <div class="skill-item"><i class="fas fa-bolt"></i>&nbsp;FastAPI</div>
-          <div class="skill-item"><i class="fas fa-wind"></i>&nbsp;Airflow</div>
-          <div class="skill-item"><i class="fab fa-microsoft"></i>&nbsp;Microsoft 365</div>
-          <div class="skill-item"><i class="fas fa-box"></i>&nbsp;Anaconda</div>
-          <div class="skill-item"><i class="fas fa-book"></i>&nbsp;Jupyter</div>
-          <div class="skill-item"><i class="fas fa-chart-pie"></i>&nbsp;Power BI</div>
-          <div class="skill-item"><i class="fas fa-chart-pie"></i>&nbsp;Tableau</div>
-        </div>
+    <!-- Technical Skills Section -->
+    <div class="skills-subsection mb-5">
+      <h3 class="subsection-title">Technical Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-item"><i class="fas fa-database"></i>&nbsp;DBMS (SQL & NoSQL)</div>
+        <div class="skill-item"><i class="fas fa-broom"></i>&nbsp;Data Cleaning</div>
+        <div class="skill-item"><i class="fas fa-chart-line"></i>&nbsp;EDA</div>
+        <div class="skill-item"><i class="fas fa-project-diagram"></i>&nbsp;Data Modelling</div>
+        <div class="skill-item"><i class="fas fa-brain"></i>&nbsp;Machine Learning</div>
+        <div class="skill-item"><i class="fas fa-robot"></i>&nbsp;Deep Learning</div>
+        <div class="skill-item"><i class="fas fa-language"></i>&nbsp;NLP</div>
+        <div class="skill-item"><i class="fas fa-cloud"></i>&nbsp;Cloud Computing</div>
+        <div class="skill-item"><i class="fas fa-exchange-alt"></i>&nbsp;ETL</div>
+        <div class="skill-item"><i class="fas fa-chart-bar"></i>&nbsp;Data Visualization</div>
+        <div class="skill-item"><i class="fas fa-stream"></i>&nbsp;Data Pipelines</div>
+        <div class="skill-item"><i class="fas fa-cogs"></i>&nbsp;Data Processing</div>
+        <div class="skill-item"><i class="fas fa-database"></i>&nbsp;Big Data</div>
+      </div>
+    </div>
+
+    <!-- Soft Skills Section -->
+    <div class="skills-subsection mb-5">
+      <h3 class="subsection-title">Soft Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-item"><i class="fas fa-users"></i>&nbsp;Team Work</div>
+        <div class="skill-item"><i class="fas fa-comments"></i>&nbsp;Communication</div>
+        <div class="skill-item"><i class="fas fa-crown"></i>&nbsp;Leadership</div>
+        <div class="skill-item"><i class="fas fa-tasks"></i>&nbsp;Project Management</div>
+        <div class="skill-item"><i class="fas fa-presentation"></i>&nbsp;Presentations</div>
+        <div class="skill-item"><i class="fas fa-lightbulb"></i>&nbsp;Decision Making</div>
+        <div class="skill-item"><i class="fas fa-sitemap"></i>&nbsp;Organization</div>
+      </div>
+    </div>
+
+    <!-- Tools and Technologies Section -->
+    <div class="skills-subsection">
+      <h3 class="subsection-title">Tools and Technologies</h3>
+      <div class="skills-grid">
+        <div class="skill-item"><i class="fab fa-python"></i>&nbsp;Python</div>
+        <div class="skill-item"><i class="fas fa-database"></i>&nbsp;MySQL</div>
+        <div class="skill-item"><i class="fas fa-database"></i>&nbsp;PostgreSQL</div>
+        <div class="skill-item"><i class="fas fa-database"></i>&nbsp;MongoDB</div>
+        <div class="skill-item"><i class="fas fa-database"></i>&nbsp;Cassandra</div>
+        <div class="skill-item"><i class="fas fa-snowflake"></i>&nbsp;Snowflake</div>
+        <div class="skill-item"><i class="fas fa-cloud"></i>&nbsp;IICS</div>
+        <div class="skill-item"><i class="fas fa-brain"></i>&nbsp;Scikit-Learn</div>
+        <div class="skill-item"><i class="fas fa-brain"></i>&nbsp;PyTorch</div>
+        <div class="skill-item"><i class="fas fa-chart-line"></i>&nbsp;Matplotlib</div>
+        <div class="skill-item"><i class="fas fa-chart-bar"></i>&nbsp;Seaborn</div>
+        <div class="skill-item"><i class="fas fa-chart-bar"></i>&nbsp;Plotly</div>
+        <div class="skill-item"><i class="fab fa-git"></i>&nbsp;Git</div>
+        <div class="skill-item"><i class="fab fa-github"></i>&nbsp;GitHub</div>
+        <div class="skill-item"><i class="fab fa-linux"></i>&nbsp;Linux</div>
+        <div class="skill-item"><i class="fas fa-stream"></i>&nbsp;Kafka</div>
+        <div class="skill-item"><i class="fab fa-docker"></i>&nbsp;Docker</div>
+        <div class="skill-item"><i class="fas fa-network-wired"></i>&nbsp;Kubernetes</div>
+        <div class="skill-item"><i class="fas fa-calculator"></i>&nbsp;NumPy</div>
+        <div class="skill-item"><i class="fas fa-table"></i>&nbsp;Pandas</div>
+        <div class="skill-item"><i class="fas fa-brain"></i>&nbsp;TensorFlow</div>
+        <div class="skill-item"><i class="fab fa-python"></i>&nbsp;Keras</div>
+        <div class="skill-item"><i class="fas fa-camera"></i>&nbsp;OpenCV</div>
+        <div class="skill-item"><i class="fas fa-palette"></i>&nbsp;Canva</div>
+        <div class="skill-item"><i class="fab fa-hubspot"></i>&nbsp;Hadoop</div>
+        <div class="skill-item"><i class="fas fa-fire"></i>&nbsp;Spark</div>
+        <div class="skill-item"><i class="fas fa-database"></i>&nbsp;Databricks</div>
+        <div class="skill-item"><i class="fab fa-aws"></i>&nbsp;AWS</div>
+        <div class="skill-item"><i class="fab fa-microsoft"></i>&nbsp;Azure</div>
+        <div class="skill-item"><i class="fas fa-flask"></i>&nbsp;Flask</div>
+        <div class="skill-item"><i class="fas fa-chart-line"></i>&nbsp;Streamlit</div>
+        <div class="skill-item"><i class="fab fa-python"></i>&nbsp;Django</div>
+        <div class="skill-item"><i class="fas fa-bolt"></i>&nbsp;FastAPI</div>
+        <div class="skill-item"><i class="fas fa-wind"></i>&nbsp;Airflow</div>
+        <div class="skill-item"><i class="fab fa-microsoft"></i>&nbsp;Microsoft 365</div>
+        <div class="skill-item"><i class="fas fa-box"></i>&nbsp;Anaconda</div>
+        <div class="skill-item"><i class="fas fa-book"></i>&nbsp;Jupyter</div>
+        <div class="skill-item"><i class="fas fa-chart-pie"></i>&nbsp;Power BI</div>
+        <div class="skill-item"><i class="fas fa-chart-pie"></i>&nbsp;Tableau</div>
       </div>
     </div>
   </div>
 </section>
 
 <style>
+  .skills-subsection {
+    margin-bottom: 3rem;
+  }
+  
+  .subsection-title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .subsection-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(45deg, #3498db, #2c3e50);
+    border-radius: 2px;
+  }
+  
   .skills-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
   }
+  
   .skill-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 50px;
-    background-color: #333;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 0.9rem;
-    transition: background-color 0.3s;
-  }
-  .skill-item i {
-    margin-right: 5px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  background-color: #333;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  padding: 0 10px; /* Add padding for better spacing */
+  text-align: center;
+}
+
+.skill-item i {
+  margin-right: 8px; /* Increased from 5px to 8px for better spacing */
+  flex-shrink: 0; /* Prevent icon from shrinking */
+  width: 16px; /* Fixed width for consistent alignment */
+  text-align: center;
+}
+  
   .skill-item:hover {
     background-color: #555;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   }
 </style>
 
@@ -289,47 +355,19 @@
 <section id="resume" class="resume section">
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
-    <h2>Resume</h2>
+    <h2>My Resume</h2>
+    <p>View or download my resume to learn about my experience and skills.</p>
   </div>
 
-  <div class="container">
-    <!-- Resume filter tabs -->
-    <ul class="resume-filters" data-aos="fade-up" data-aos-delay="100">
-      <li onclick="filterResume('data-science')">DATA SCIENCE RESUME</li>
-      <li onclick="filterResume('data-engineering')">DATA ENGINEER RESUME</li>
-    </ul>
-
-    <div data-aos="fade-up" data-aos-delay="200">
-      <!-- Data Science Resume Section -->
-      <div id="data-science-resume" class="resume-section" style="display: none;">
-        <div class="resume-item pb-0">
-          <h4>Data Science Resume</h4>
-          <p><em>View or download my Data Science resume to learn about my experience and skills in the field.</em></p>
-          <div class="resume-preview">
-            <iframe src="https://drive.google.com/file/d/1-MnfHp2o3YShCqmO1f-DOr5VpBJ32WyE/preview" width="100%" height="600" allow="autoplay"></iframe>
-          </div>
-          <div class="resume-download mt-4">
-            <a href="https://drive.google.com/file/d/1-MnfHp2o3YShCqmO1f-DOr5VpBJ32WyE/view" class="btn btn-primary" target="_blank">
-              <i class="bi bi-download"></i> Download Resume
-            </a>
-          </div>
-        </div>
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="resume-item pb-0">
+      <div class="resume-preview">
+        <iframe src="https://drive.google.com/file/d/1K8-L084cA6AKYr3GlhC4-JzfzBZNwSXG/preview" width="100%" height="600" allow="autoplay"></iframe>
       </div>
-
-      <!-- Data Engineering Resume Section -->
-      <div id="data-engineering-resume" class="resume-section" style="display: none;">
-        <div class="resume-item pb-0">
-          <h4>Data Engineering Resume</h4>
-          <p><em>View or download my Data Engineer resume to learn about my experience and skills in the field.</em></p>
-          <div class="resume-preview">
-            <iframe src="https://drive.google.com/file/d/14fTOeVP-Nsbt9TXVWVV4k56R5m2PzOsP/preview" width="100%" height="600" allow="autoplay"></iframe>
-          </div>
-          <div class="resume-download mt-4">
-            <a href="https://drive.google.com/file/d/14fTOeVP-Nsbt9TXVWVV4k56R5m2PzOsP/view" class="btn btn-primary" target="_blank">
-              <i class="bi bi-download"></i> Download Resume
-            </a>
-          </div>
-        </div>
+      <div class="resume-download mt-4">
+        <a href="https://drive.google.com/file/d/1K8-L084cA6AKYr3GlhC4-JzfzBZNwSXG/view?usp=sharing" class="btn btn-primary" target="_blank">
+          <i class="bi bi-download"></i> View/Download Resume
+        </a>
       </div>
     </div>
   </div>
@@ -418,13 +456,20 @@ function filterResume(category) {
           <div class="portfolio-item">
             <div class="portfolio-content">
               <div class="portfolio-header">
-                <h4>Spotify Music Recommendation System</h4>
+                <h4><a href="https://github.com/santhoshkrishnan30/Spotify-Music-Recommendation-System" target="_blank" class="project-title-link">Spotify Music Recommendation System</a></h4>
                 <a href="https://github.com/santhoshkrishnan30/Spotify-Music-Recommendation-System" title="More Details" class="details-link" target="_blank">
                   <i class="external-link-icon"></i>
                 </a>
               </div>
-              <p>Music Recommendation Systems operate through intricate algorithms that analyze vast amounts of data about users' musical interactions, such as their listening history, liked tracks, skipped songs, and even explicit user preferences conveyed through ratings or feedback. These data points are instrumental in constructing comprehensive user profiles, delineating individual tastes and preferences.</p>
-              <div class="tech-stack mt-auto">
+              <div class="project-image">
+                <a href="https://github.com/santhoshkrishnan30/Spotify-Music-Recommendation-System" target="_blank">
+                  <img src="assets/img/Instagram-post---15.png" alt="Spotify Music Recommendation System" class="img-fluid">
+                </a>
+              </div>
+              <div class="project-description">
+                <p>Music Recommendation Systems operate through intricate algorithms that analyze vast amounts of data about users' musical interactions, such as their listening history, liked tracks, skipped songs, and even explicit user preferences conveyed through ratings or feedback. These data points are instrumental in constructing comprehensive user profiles, delineating individual tastes and preferences.</p>
+              </div>
+              <div class="tech-stack">
                 <span class="badge">Spotify-Key</span>
                 <span class="badge">Python</span>
               </div>
@@ -435,13 +480,20 @@ function filterResume(category) {
           <div class="portfolio-item">
             <div class="portfolio-content">
               <div class="portfolio-header">
-                <h4>End-to-End Chatbot using Python</h4>
+                <h4><a href="https://github.com/santhoshkrishnan30/End-to-End-Chatbot" target="_blank" class="project-title-link">End-to-End Chatbot using Python</a></h4>
                 <a href="https://github.com/santhoshkrishnan30/End-to-End-Chatbot" title="More Details" class="details-link" target="_blank">
                   <i class="external-link-icon"></i>
                 </a>
               </div>
-              <p>An end-to-end chatbot refers to a chatbot that can handle a complete conversation from start to finish without requiring human assistance. To create an end-to-end chatbot, you need to write a computer program that can understand user requests, generate appropriate responses, and take action when necessary. This involves collecting data, choosing a programming language and NLP tools, training the chatbot, and testing and refining it before making it available to users.</p>
-              <div class="tech-stack mt-auto">
+              <div class="project-image">
+                <a href="https://github.com/santhoshkrishnan30/End-to-End-Chatbot" target="_blank">
+                  <img src="assets/img/g0YTRh7uRHpbWQgSZz62bO050.png" alt="End-to-End Chatbot" class="img-fluid">
+                </a>
+              </div>
+              <div class="project-description">
+                <p>An end-to-end chatbot refers to a chatbot that can handle a complete conversation from start to finish without requiring human assistance. To create an end-to-end chatbot, you need to write a computer program that can understand user requests, generate appropriate responses, and take action when necessary. This involves collecting data, choosing a programming language and NLP tools, training the chatbot, and testing and refining it before making it available to users.</p>
+              </div>
+              <div class="tech-stack">
                 <span class="badge">Nltk</span>
                 <span class="badge">Streamlit</span>
               </div>
@@ -452,13 +504,20 @@ function filterResume(category) {
           <div class="portfolio-item">
             <div class="portfolio-content">
               <div class="portfolio-header">
-                <h4>Instagram Reach Forecasting</h4>
+                <h4><a href="https://github.com/santhoshkrishnan30/Instagram-Reach-Forecasting" target="_blank" class="project-title-link">Instagram Reach Forecasting</a></h4>
                 <a href="https://github.com/santhoshkrishnan30/Instagram-Reach-Forecasting" title="More Details" class="details-link" target="_blank">
                   <i class="external-link-icon"></i>
                 </a>
               </div>
-              <p>Instagram reach forecasting is the processing of predicting the number of people that an Instagram post, story, or other content will be reached, based on historical data and various other factors. For content creators and anyone using Instagram professionally, predicting the reach can be valuable for planning and optimizing their social media strategy. By understanding how their content is performing, creators can make informed decisions about when to publish, what types of content to create, and how to engage their audience.</p>
-              <div class="tech-stack mt-auto">
+              <div class="project-image">
+                <a href="https://github.com/santhoshkrishnan30/Instagram-Reach-Forecasting" target="_blank">
+                  <img src="https://www.socialchamp.com/wp-content/uploads/2022/12/Instagram-Reach.jpg" alt="Instagram Reach Forecasting" class="img-fluid">
+                </a>
+              </div>
+              <div class="project-description">
+                <p>Instagram reach forecasting is the processing of predicting the number of people that an Instagram post, story, or other content will be reached, based on historical data and various other factors. For content creators and anyone using Instagram professionally, predicting the reach can be valuable for planning and optimizing their social media strategy. By understanding how their content is performing, creators can make informed decisions about when to publish, what types of content to create, and how to engage their audience.</p>
+              </div>
+              <div class="tech-stack">
                 <span class="badge">plotly</span>
                 <span class="badge">statsmodels</span>
                 <span class="badge">pandas</span>
@@ -468,35 +527,50 @@ function filterResume(category) {
         </div>
 
         <div class="row">
-          <!-- FoodChatbot using google DialogFlow-->
+          <!-- Tiffintalk-Bot -->
           <div class="portfolio-item">
             <div class="portfolio-content">
               <div class="portfolio-header">
-                <h4>Tiffintalk-Bot</h4>
+                <h4><a href="https://github.com/santhoshkrishnan30/Tiffintalk-Bot-FastAPI" target="_blank" class="project-title-link">Tiffintalk-Bot</a></h4>
                 <a href="https://github.com/santhoshkrishnan30/Tiffintalk-Bot-FastAPI" title="More Details" class="details-link" target="_blank">
                   <i class="external-link-icon"></i>
                 </a>
               </div>
-              <p>The food chatbot project integrates Dialogflow for natural language understanding and FastAPI for backend services, enabling users to place and track orders through a website. It involves setting up intent recognition with Dialogflow, using MySQL for order management, and ensuring a smooth user experience from order entry to tracking.</p>
-              <div class="tech-stack mt-auto">
+              <div class="project-image">
+                <a href="https://github.com/santhoshkrishnan30/Tiffintalk-Bot-FastAPI" target="_blank">
+                  <img src="https://www.streebo.com/wp-content/themes/streebo/images/chatbot-for-resturant/chatbot-for-resturant-img1.jpg" alt="Tiffintalk-Bot" class="img-fluid">
+                </a>
+              </div>
+              <div class="project-description">
+                <p>The food chatbot project integrates Dialogflow for natural language understanding and FastAPI for backend services, enabling users to place and track orders through a website. It involves setting up intent recognition with Dialogflow, using MySQL for order management, and ensuring a smooth user experience from order entry to tracking.</p>
+              </div>
+              <div class="tech-stack">
                 <span class="badge">Dialogflow</span>
                 <span class="badge">MySQL</span>
                 <span class="badge">Ngrok</span>
+                <span class="badge">Python</span>
               </div>
             </div>
           </div>
 
-          <!--Fashion-Recommendation-System-->
+          <!-- Fashion-Recommendation-System -->
           <div class="portfolio-item">
             <div class="portfolio-content">
               <div class="portfolio-header">
-                <h4>Fashion-Recommendation-System</h4>
+                <h4><a href="https://github.com/santhoshkrishnan30/Fashion-Recommendation-System-using-Image-Features" target="_blank" class="project-title-link">Fashion-Recommendation-System</a></h4>
                 <a href="https://github.com/santhoshkrishnan30/Fashion-Recommendation-System-using-Image-Features" title="More Details" class="details-link" target="_blank">
                   <i class="external-link-icon"></i>
                 </a>
               </div>
-              <p>This Projects contains code to build a Fashion Recommendation System utilizing image features. The system leverages computer vision and machine learning techniques to analyze fashion items' visual aspects like color, texture, and style and recommend similar or complementary products to users.</p>
-              <div class="tech-stack mt-auto">
+              <div class="project-image">
+                <a href="https://github.com/santhoshkrishnan30/Fashion-Recommendation-System-using-Image-Features" target="_blank">
+                  <img src="https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/08/un-55.png?fit=1280%2C720&ssl=1" alt="Fashion-Recommendation-System" class="img-fluid">
+                </a>
+              </div>
+              <div class="project-description">
+                <p>This Projects contains code to build a Fashion Recommendation System utilizing image features. The system leverages computer vision and machine learning techniques to analyze fashion items' visual aspects like color, texture, and style and recommend similar or complementary products to users.</p>
+              </div>
+              <div class="tech-stack">
                 <span class="badge">TensorFlow</span>
                 <span class="badge">Keras</span>
                 <span class="badge">PIL</span>
@@ -504,17 +578,24 @@ function filterResume(category) {
             </div>
           </div>
 
-          <!--Plant Disease Classifier-->
+          <!-- Plant Disease Classifier -->
           <div class="portfolio-item">
             <div class="portfolio-content">
               <div class="portfolio-header">
-                <h4>Plant Disease Classifier</h4>
+                <h4><a href="https://github.com/santhoshkrishnan30/CNN-plant-disease-prediction" target="_blank" class="project-title-link">Plant Disease Classifier</a></h4>
                 <a href="https://github.com/santhoshkrishnan30/CNN-plant-disease-prediction" title="More Details" class="details-link" target="_blank">
                   <i class="external-link-icon"></i>
                 </a>
               </div>
-              <p>This Projects contains a Convolutional Neural Network (CNN) based plant disease classifier implemented using TensorFlow. The model is trained to classify plant images into three categories: "Healthy", "Powdery", and "Rust". The dataset consists of 1530 images divided into training, testing, and validation sets.</p>
-              <div class="tech-stack mt-auto">
+              <div class="project-image">
+                <a href="https://github.com/santhoshkrishnan30/CNN-plant-disease-prediction" target="_blank">
+                  <img src="https://cybrpro.com/wp-content/uploads/2024/03/2.-Enhancing-Agriculture_-Plant-Disease-Detection-Using-Machine-Learning.jpg" alt="Plant Disease Classifier" class="img-fluid">
+                </a>
+              </div>
+              <div class="project-description">
+                <p>This Projects contains a Convolutional Neural Network (CNN) based plant disease classifier implemented using TensorFlow. The model is trained to classify plant images into three categories: "Healthy", "Powdery", and "Rust". The dataset consists of 1530 images divided into training, testing, and validation sets.</p>
+              </div>
+              <div class="tech-stack">
                 <span class="badge">TensorFlow</span>
                 <span class="badge">Keras</span>
                 <span class="badge">PIL</span>
@@ -531,13 +612,20 @@ function filterResume(category) {
           <div class="portfolio-item">
             <div class="portfolio-content">
               <div class="portfolio-header">
-                <h4>Realtime Socket Streaming with Apache Spark</h4>
+                <h4><a href="https://github.com/santhoshkrishnan30/Realtime-Socket-Streaming-with-Apache-Spark" target="_blank" class="project-title-link">Realtime Socket Streaming with Apache Spark</a></h4>
                 <a href="https://github.com/santhoshkrishnan30/Realtime-Socket-Streaming-with-Apache-Spark" title="More Details" class="details-link" target="_blank">
                   <i class="external-link-icon"></i>
                 </a>
               </div>
-              <p>This project serves as a comprehensive guide to building an end-to-end data engineering pipeline using TCP/IP Socket, Apache Spark, OpenAI LLM, Kafka and Elasticsearch.</p>
-              <div class="tech-stack mt-auto">
+              <div class="project-image">
+                <a href="https://github.com/santhoshkrishnan30/Realtime-Socket-Streaming-with-Apache-Spark" target="_blank">
+                  <img src="assets/img/Concept_art_of_a_data_pipeline_featuring_OpenAI_LL-1748942697975.png" alt="Realtime Socket Streaming" class="img-fluid">
+                </a>
+              </div>
+              <div class="project-description">
+                <p>This project serves as a comprehensive guide to building an end-to-end data engineering pipeline using TCP/IP Socket, Apache Spark, OpenAI LLM, Kafka and Elasticsearch.</p>
+              </div>
+              <div class="tech-stack">
                 <span class="badge">Kafka</span>
                 <span class="badge">Spark</span>
                 <span class="badge">Docker</span>
@@ -550,13 +638,20 @@ function filterResume(category) {
           <div class="portfolio-item">
             <div class="portfolio-content">
               <div class="portfolio-header">
-                <h4>Real-Time YouTube Analytics Streamed to Telegram</h4>
+                <h4><a href="https://github.com/santhoshkrishnan30/Google-Cloud-Realtime-Streaming-End-to-End-Data-Engineering-Project-YouTube-API" target="_blank" class="project-title-link">Real-Time YouTube Analytics Streamed to Telegram</a></h4>
                 <a href="https://github.com/santhoshkrishnan30/Google-Cloud-Realtime-Streaming-End-to-End-Data-Engineering-Project-YouTube-API" title="More Details" class="details-link" target="_blank">
                   <i class="external-link-icon"></i>
                 </a>
               </div>
-              <p>This Python-based project aims to fetch real-time YouTube metrics like likes, views, comments, and favorites, and then streams this data via Kafka. Also, KSqlDB was used for stream processing and the processed data is then sent to a Telegram bot for real-time notifications.</p>
-              <div class="tech-stack mt-auto">
+              <div class="project-image">
+                <a href="https://github.com/santhoshkrishnan30/Google-Cloud-Realtime-Streaming-End-to-End-Data-Engineering-Project-YouTube-API" target="_blank">
+                  <img src="assets/img/A_futuristic_digital_illustration_depicting_a_real-1748943706349.png" alt="YouTube Analytics" class="img-fluid">
+                </a>
+              </div>
+              <div class="project-description">
+                <p>This Python-based project aims to fetch real-time YouTube metrics like likes, views, comments, and favorites, and then streams this data via Kafka. Also, KSqlDB was used for stream processing and the processed data is then sent to a Telegram bot for real-time notifications.</p>
+              </div>
+              <div class="tech-stack">
                 <span class="badge">Kafka</span>
                 <span class="badge">Docker</span>
                 <span class="badge">telegramAPI</span>
@@ -569,16 +664,49 @@ function filterResume(category) {
           <div class="portfolio-item">
             <div class="portfolio-content">
               <div class="portfolio-header">
-                <h4>Big Data Analytics with LLM (GPT-4, GPT-3.5turbo, GPT3.5) - OpenAI ChatGPT</h4>
+                <h4><a href="https://github.com/santhoshkrishnan30/Big-Data-Analytics-with-LLM-GPT4-GPT3.5turbo-GPT3.5---OpenAI-ChatGPT" target="_blank" class="project-title-link">Big Data Analytics with LLM (GPT-4, GPT-3.5turbo, GPT3.5) - OpenAI ChatGPT</a></h4>
                 <a href="https://github.com/santhoshkrishnan30/Big-Data-Analytics-with-LLM-GPT4-GPT3.5turbo-GPT3.5---OpenAI-ChatGPT" title="More Details" class="details-link" target="_blank">
                   <i class="external-link-icon"></i>
                 </a>
               </div>
-              <p>This Python project demonstrates how to enhance data manipulation and analysis using artificial intelligence with the pandas library. By integrating AI capabilities, you can supercharge your data tasks and gain deeper insights.</p>
-              <div class="tech-stack mt-auto">
+              <div class="project-image">
+                <a href="https://github.com/santhoshkrishnan30/Big-Data-Analytics-with-LLM-GPT4-GPT3.5turbo-GPT3.5---OpenAI-ChatGPT" target="_blank">
+                  <img src="assets/img/An_illustrative_image_depicting_the_concept_of_Big-1748944595791.png" alt="Big Data Analytics with LLM" class="img-fluid">
+                </a>
+              </div>
+              <div class="project-description">
+                <p>This Python project demonstrates how to enhance data manipulation and analysis using artificial intelligence with the pandas library. By integrating AI capabilities, you can supercharge your data tasks and gain deeper insights.</p>
+              </div>
+              <div class="tech-stack">
                 <span class="badge">pandas-ai (OpenAI GPT-based library)</span>
                 <span class="badge">pandas</span>
                 <span class="badge">python</span>
+              </div>
+            </div>
+          </div>
+          <!-- Automated Earthquake Monitoring-->
+          <div class="portfolio-item">
+            <div class="portfolio-content">
+              <div class="portfolio-header">
+                <h4><a href="https://github.com/santhoshkrishnan30/EarthQuake-Fabric-DataEngineering.git" target="_blank" class="project-title-link">Automated Earthquake Monitoring</a></h4>
+                <a href="https://github.com/santhoshkrishnan30/EarthQuake-Fabric-DataEngineering.git" title="More Details" class="details-link" target="_blank">
+                  <i class="external-link-icon"></i>
+                </a>
+              </div>
+              <div class="project-image">
+                <a href="https://github.com/santhoshkrishnan30/EarthQuake-Fabric-DataEngineering.git" target="_blank">
+                  <img src="assets/img/earthquake.png" alt="YouTube Analytics" class="img-fluid">
+                </a>
+              </div>
+              <div class="project-description">
+                <p>This Microsoft Fabric-based project enables real-time earthquake monitoring by automating data ingestion, processing, and visualization. Using Python, Data Factory, and Power BI, it fetches live earthquake data from the USGS API, transforms it following the Medallion architecture, and enriches it with location-based insights. The final dashboard offers interactive visualizations, allowing users to analyze seismic activity efficiently.</p>
+              </div>
+              <div class="tech-stack">
+                <span class="badge">Microsoft Fabric</span>
+                <span class="badge">Data Factory</span>
+                <span class="badge">Power BI</span>
+                <span class="badge">Python</span>
+                <span class="badge">USGS API</span>
               </div>
             </div>
           </div>
@@ -605,38 +733,38 @@ function filterProjects(category) {
   }
   
   .portfolio-filters li {
-  list-style: none;
-  padding: 20px 40px; /* Increased horizontal padding */
-  cursor: pointer;
-  margin: 0 10px;
-  border-radius: 50px;
-  background: #f7f7f7;
-  color: black;
-  transition: background 0.3s, color 0.3s, padding 0.3s;
-  
-}
+    list-style: none;
+    padding: 20px 40px;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 50px;
+    background: #f7f7f7;
+    color: black;
+    transition: background 0.3s, color 0.3s, padding 0.3s;
+  }
 
-.portfolio-filters li:hover {
-  background: #333;
-  color: #fff !important; 
-  padding: 25px 65px; /* Increased hover padding */
-}
+  .portfolio-filters li:hover {
+    background: #333;
+    color: #fff !important; 
+    padding: 25px 65px;
+  }
+
   .portfolio-content {
     background: #333;
     color: #fff;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
-    height: 100%;
     display: flex;
     flex-direction: column;
+    min-height: 500px; /* Ensures consistent minimum height */
   }
   
   .portfolio-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
   
   .portfolio-content h4 {
@@ -646,15 +774,42 @@ function filterProjects(category) {
     padding-right: 30px;
     color: #ffffff;
   }
+
+  .project-title-link {
+    color: #ffffff !important;
+    text-decoration: none;
+  }
   
-  .portfolio-content p {
-    font-size: 14px;
-    margin-bottom: 10px;
+  .project-title-link:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+  }
+
+  .project-image {
+    margin-bottom: 20px; /* Added space after image */
+  }
+
+  .project-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .project-description {
     flex-grow: 1;
+    margin-bottom: 20px; /* Added space before tech stack */
+  }
+  
+  .project-description p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
   }
   
   .tech-stack {
     margin-top: auto;
+    padding-top: 15px;
   }
   
   .tech-stack .badge {
@@ -719,9 +874,81 @@ function filterProjects(category) {
     }
   }
 </style>
+<!-- Projects Section -->
+<!-- Explore More Projects Section -->
+<section class="explore-projects section">
+  <div class="container text-center" data-aos="fade-up">
+    <div class="explore-projects-content">
+      <h3>Want to Explore More Projects?</h3>
+      <p>Discover additional projects and contributions on my GitHub repository</p>
+      <a href="https://github.com/santhoshkrishnan30" target="_blank" class="btn-explore-github">
+        <i class="fab fa-github"></i>
+        View GitHub Profile
+      </a>
+    </div>
+  </div>
+</section>
 
+<style>
+  .explore-projects {
+    padding: 60px 0;
+    background: #333;
+    color: white;
+  }
   
-<!--projects Section -->
+  .explore-projects-content h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .explore-projects-content p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: white;
+    opacity: 0.9;
+  }
+  
+  .btn-explore-github {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 35px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    border: 2px solid #555;
+  }
+  
+  .btn-explore-github:hover {
+    background: #f7f7f7;
+    color: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    border-color: #f7f7f7;
+  }
+  
+  .btn-explore-github i {
+    font-size: 1.3rem;
+  }
+  
+  @media (max-width: 768px) {
+    .explore-projects-content h3 {
+      font-size: 1.8rem;
+    }
+    
+    .btn-explore-github {
+      padding: 12px 25px;
+      font-size: 1rem;
+    }
+  }
+</style>
 
     <!-- Services Section -->
     <section id="services" class="services section">
@@ -790,6 +1017,316 @@ function filterProjects(category) {
       </div>
 
     </section><!-- /Services Section -->
+
+
+<!-- Certifications Section -->
+<section id="certifications" class="certifications-section">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <h2>Certifications & Badges</h2>
+      <p>Professional certifications and achievements that showcase my expertise</p>
+    </div>
+
+    <div class="certifications-grid" data-aos="fade-up" data-aos-delay="200">
+
+      <!-- Microsoft Azure AZ 900 -->
+      <div class="certification-card" data-aos="zoom-in" data-aos-delay="100">
+        <a href="https://www.credly.com/badges/d4ae3b21-5204-43d0-83ea-3dc3131edb53/public_url" target="_blank">
+          <div class="cert-image">
+            <img src="assets/img/cisco.png" alt="cisco Data Analytics Essentials" loading="lazy">
+            <div class="cert-overlay"><i class="fas fa-external-link-alt"></i></div>
+          </div>
+        </a>
+        <div class="cert-content">
+          <h4>cisco Data Analytics Essentials</h4>
+          <p class="cert-issuer">cisco</p>
+          <div class="cert-meta">
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- SQL Beginner to Advanced -->
+      <div class="certification-card" data-aos="zoom-in" data-aos-delay="200">
+        <a href="https://courses.cognitiveclass.ai/certificates/a25a668b35394d07b6e875da8352e44c" target="_blank">
+          <div class="cert-image">
+            <img src="assets/img/cognitiveclass.png" alt="Cognitive Class" loading="lazy">
+            <div class="cert-overlay"><i class="fas fa-external-link-alt"></i></div>
+          </div>
+        </a>
+        <div class="cert-content">
+          <h4>Big Data 101</h4>
+          <p class="cert-issuer">cognitive class</p>
+          <div class="cert-meta">
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Excel: Mother of Business Intelligence -->
+      <div class="certification-card" data-aos="zoom-in" data-aos-delay="300">
+        
+          <div class="cert-image">
+            <img src="assets/img/googleanalytics.png" alt="Google Analytics for Power Users" loading="lazy">
+            
+          </div>
+        </a>
+        <div class="cert-content">
+          <h4>Google Analytics for Power Users</h4>
+          <p class="cert-issuer">Google</p>
+          <div class="cert-meta">
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- South Indian Bank Fin-A-Thon -->
+      <div class="certification-card" data-aos="zoom-in" data-aos-delay="400">
+        <a href="https://www.mygreatlearning.com/certificate/RCHGDUWC" target="_blank">
+          <div class="cert-image">
+            <img src="assets/img/GL-dataanalysisusingpyspark.png" alt="Data Analysis using Pyspark" loading="lazy">
+            <div class="cert-overlay"><i class="fas fa-external-link-alt"></i></div>
+          </div>
+        </a>
+        <div class="cert-content">
+          <h4>Data Analysis using Pyspark</h4>
+          <p class="cert-issuer">Great Learning</p>
+          <div class="cert-meta">
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Math and Statistics For AI, Data Science -->
+      <div class="certification-card" data-aos="zoom-in" data-aos-delay="500">
+        <a href="https://courses.cognitiveclass.ai/certificates/8d9f72ee8e054ac4837dda62aaec6876" target="_blank">
+          <div class="cert-image">
+            <img src="assets/img/sparkfundamentals.png" alt="Spark Fundamentals II" loading="lazy">
+            <div class="cert-overlay"><i class="fas fa-external-link-alt"></i></div>
+          </div>
+        </a>
+        <div class="cert-content">
+          <h4>Spark Fundamentals II</h4>
+          <p class="cert-issuer">cognitive class</p>
+          <div class="cert-meta">
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- South Indian Bank Fin-A-Thon -->
+      <div class="certification-card" data-aos="zoom-in" data-aos-delay="400">
+        <a href="https://www.mygreatlearning.com/certificate/ZZHCBLAJ" target="_blank">
+          <div class="cert-image">
+            <img src="assets/img/DatavisualizationGL.png" alt="Data Visualization" loading="lazy">
+            <div class="cert-overlay"><i class="fas fa-external-link-alt"></i></div>
+          </div>
+        </a>
+        <div class="cert-content">
+          <h4>Data Visualization with Power BI</h4>
+          <p class="cert-issuer">Great Learning</p>
+          <div class="cert-meta">
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- View All Certifications Button -->
+    <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="600">
+      <a href="https://www.linkedin.com/in/santhoshkrish03/details/certifications/" target="_blank" class="btn-view-all">
+        <i class="fas fa-eye"></i> View All Certifications
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CSS -->
+<style>
+  .certifications-section {
+    padding: 80px 0;
+    background: #333;
+    color: white;
+  }
+
+  .certifications-section .section-header h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: white;
+  }
+
+  .certifications-section .section-header p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+    margin: 0 auto 50px;
+  }
+
+  .certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .certification-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+  }
+
+  .certification-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .cert-image {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .cert-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .certification-card:hover .cert-image img {
+    transform: scale(1.05);
+  }
+
+  .cert-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .certification-card:hover .cert-overlay {
+    opacity: 1;
+  }
+
+  .cert-overlay i {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .cert-content {
+    padding: 25px;
+  }
+
+  .cert-content h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: white;
+    line-height: 1.3;
+  }
+
+  .cert-issuer {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+
+  .cert-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .cert-date,
+  .cert-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+    padding: 5px 12px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+
+  .cert-badge.award {
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+    color: white;
+  }
+
+  .btn-view-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+
+  .btn-view-all:hover {
+    background: #f7f7f7;
+    color: #333;
+    text-decoration: none;
+    border-color: #f7f7f7;
+    transform: translateY(-2px);
+  }
+
+  @media (max-width: 768px) {
+    .certifications-section {
+      padding: 60px 0;
+    }
+
+    .certifications-section .section-header h2 {
+      font-size: 2rem;
+    }
+
+    .certifications-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .cert-content h4 {
+      font-size: 1.1rem;
+    }
+
+    .cert-meta {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .certification-card {
+      margin: 0 10px;
+    }
+
+    .cert-content {
+      padding: 20px;
+    }
+  }
+</style>
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
